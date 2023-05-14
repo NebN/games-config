@@ -1,0 +1,1 @@
+-tickrate 128 -nojoy -novid -console +fps_max 360 +rate 786432  -nothreadedsockets
