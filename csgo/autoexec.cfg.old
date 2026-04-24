@@ -1,0 +1,81 @@
+exec "binds.cfg"
+
+// ================== Rates ===================
+
+rate "128000"
+
+// ============== Video settings ==============
+
+r_drawtracers_firstperson "0"
+// mat_savechanges
+
+// ============== Audio settings ==============
+
+snd_mixahead "0.05"
+snd_headphone_pan_exponent "2"
+snd_headphone_pan_radial_weight "2"
+snd_mute_losefocus "0"
+
+// =============== HUD settings ===============
+
++cl_show_team_equipment
+
+hud_scaling "0.85"
+safezonex "0.95"
+safezoney "1"
+cl_hud_color "0"
+cl_show_clan_in_death_notice "0"
+cl_showloadout "1"
+hud_showtargetid "0"
+
+cl_hud_radar_scale "1.05"
+cl_radar_always_centered "0" 
+cl_radar_scale "0.5" 
+cl_radar_rotate "1"
+cl_radar_icon_scale_min "0.7"
+cl_radar_square_with_scoreboard "1"
+
+developer "0"
+gameinstructor_enable "0"
+
+cl_showfps "0"
+
+con_enable "1"
+
+// ============= Viewmodel settings =============
+
+viewmodel_fov "68"
+viewmodel_offset_x 2.5
+viewmodel_offset_y 2
+viewmodel_offset_z -2
+
+// =============== Mouse settings ===============
+
+// DPI = 800
+sensitivity "1"
+
+// ============== MISC settings ==============
+
+cl_autohelp "0"
+cl_teammate_colors_show "1"
+cl_color "2"
+cl_use_opens_buy_menu "0"
+cl_join_advertise "2"
+option_duck_method "0"
+option_speed_method "0"
+
+clear
+
+echo "                                              "
+echo "  ______   __              __    __  ________ "
+echo " /      \ |  \            |  \  |  \|        \"
+echo "|  $$$$$$\| $$            | $$  | $$| $$$$$$$$"
+echo "| $$ __\$$| $$            | $$__| $$| $$__    "
+echo "| $$|    \| $$            | $$    $$| $$  \   "
+echo "| $$ \$$$$| $$            | $$$$$$$$| $$$$$   "
+echo "| $$__| $$| $$_____       | $$  | $$| $$      "
+echo " \$$    $$| $$     \      | $$  | $$| $$      "
+echo "  \$$$$$$  \$$$$$$$$       \$$   \$$ \$$      "
+echo "                                              "
+
+host_writeconfig
